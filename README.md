@@ -3,11 +3,11 @@
 # Contributors
 * <a href="https://github.com/vex-me-not" style="underline:none;">Nikos Charisis</a> <br>
 * <a href="https://github.com/Mastoropoulos-Loukas" style="underline:none;">Loukas Mastoropoulos</a> <br>
-* <a href="https://github.com/AlexLinardos" style="underline:none;">Alex Linardos</a>
+* <a href="https://github.com/AlexLinardos" style="underline:none;">Alex Linardos</a> <br>
 
 
-# ΕΙΣΑΓΩΓΙΚΕΣ ΣΗΜΕΙΩΣΕΙΣ:
-    Στο αρχείο hash_file.h έχει προστεθεί το πρώτυπο της συνάρτησης HashStatistics() που ζητείται στην εκφώνηση. Η υλοποίησή της βρίσκεται στο hash_file.c , το οποίο περιέχει εκτός από τις ζητούμενες συναρτήσεις και αλλες 2 βοηθητικές συναρτήσεις που χρησιμεύουν στην εκτύπωση διαφόρων τύπων(printRecord και printHashNode) καθώς και μια συνάρτηση κατακερματσμού(hashFunction). Στο αρχείο ht_main.c έχει προστεθεί και μια κλήση της hashStatistcs έπειτα από τον δοσμένο κώδικα. Έχουν υλοποίηθεί όλες οι συναρτησείς στο hash_file.c  με τη χρήση διάφορων δομών , για τις οποίες ακολουθεί επιπλέον επεξήγηση. Τέλος, στο Makefile έχει προστεθεί και ενα recipe για το clean, που διαγράφει το εκτελέσιμο runner καθώς και όλα τα .db αρχεία.
+ΕΙΣΑΓΩΓΙΚΕΣ ΣΗΜΕΙΩΣΕΙΣ:<br>
+    <p>Στο αρχείο hash_file.h έχει προστεθεί το πρώτυπο της συνάρτησης HashStatistics() που ζητείται στην εκφώνηση. Η υλοποίησή της βρίσκεται στο hash_file.c , το οποίο περιέχει εκτός από τις ζητούμενες συναρτήσεις και αλλες 2 βοηθητικές συναρτήσεις που χρησιμεύουν στην εκτύπωση διαφόρων τύπων(printRecord και printHashNode) καθώς και μια συνάρτηση κατακερματσμού(hashFunction). Στο αρχείο ht_main.c έχει προστεθεί και μια κλήση της hashStatistcs έπειτα από τον δοσμένο κώδικα. Έχουν υλοποίηθεί όλες οι συναρτησείς στο hash_file.c  με τη χρήση διάφορων δομών , για τις οποίες ακολουθεί επιπλέον επεξήγηση. Τέλος, στο Makefile έχει προστεθεί και ενα recipe για το clean, που διαγράφει το εκτελέσιμο runner καθώς και όλα τα .db αρχεία.</p>
 
 # ΔΟΜΕΣ ΔΕΔΟΜΕΝΩΝ ΠΟΥ ΧΡΗΣΙΜΟΠΟΙΟΥΝΤΑΙ:
     IndexNode:
